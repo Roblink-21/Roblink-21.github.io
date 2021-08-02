@@ -1,0 +1,164 @@
+.container {
+	height: 80px;
+}
+
+.navbare {
+	height: 80px;
+}
+
+.navbar-brand img {
+	max-width: 150px;
+}
+
+.icon{
+	color: #D5245B;
+}
+
+.menu {
+	justify-content: flex-end;
+	font-size: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,.3);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgba(0,0,0,.6);
+}
+
+button.btn {
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+
+button.btn-dark {
+	background-color: #000000;
+}
+
+.carousel-caption {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 225, 188, .5);
+    color: #000000;
+    font-size: 14px;
+    padding: 50px;
+}
+
+.btn-contact {
+	margin-top: 0;
+}
+
+.carousel-caption h5 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.carousel-caption hr {
+	width: 50px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.custom{
+	width: 24%;
+    height: 56px;
+    color: #555;
+	margin-right: 10px;
+    border: 5px solid #ccc;
+    border-radius: 90px;
+}
+
+.custom i{
+	font-size: 22px;
+    margin: 12px 15px;
+}
+
+.tam{
+	padding: 40px 13px 55px;
+}
+
+.ldc div{
+
+	overflow: hidden;
+}
+
+button.btn {
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+
+.box{
+	width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.boxp{
+	width: 400px;
+    height: 350px;
+    margin-left: 20px;
+}
+.boxt{
+	font-size: 15px;
+	width: 400px;
+    height: 115px;
+    margin-left: 20px;
+}
+.boxi{
+	width: 350px;
+    height: 50px;
+    margin-left: 20px;
+}
+.sinborde {
+    background-color: #F08080;
+    border: none;
+    border-bottom: 1px solid #F08080;
+	width: 586px;
+	border-radius: 7px;
+ }
+
+@media (min-width: 420px) {
+
+	.ldc{
+		justify-content: center;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.carousel-caption {
+	    font-size: 18px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 32px;
+	}
+	
+	
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.btn-contact {
+		margin-top: 50px;
+	}
+
+	.carousel-caption {
+	    font-size: 24px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 52px;
+	}
+}
